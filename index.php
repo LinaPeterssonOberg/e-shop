@@ -10,6 +10,7 @@ $app = new App\Rapid(App\App::APP_MODE_DEV);
 
         //changed database name / Jennie
 $app->initDatabase("mysql", "db4free.net", "eshopapi2", "eshopapi2", "eshopapi2", [PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC, PDO::ATTR_EMULATE_PREPARES => false]);
+//$app->initDatabase("mysql", "localhost","eshopapi2", "root", "root", [PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC, PDO::ATTR_EMULATE_PREPARES => false]);
 
 //By default we include the framework built-in error handler. You can include your own by using this command!
 //$app->setErrorHandler(new \Project\Handlers\CustomErrorHandler());
